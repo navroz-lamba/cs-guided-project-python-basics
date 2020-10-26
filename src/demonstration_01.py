@@ -8,6 +8,8 @@ Examples:
 - addition(-3, -6) ➞ -9
 - addition(7, 3) ➞ 10
 """
-def addition(a, b):
+def addition(a: int, b: int):
     # Your code here
+    add = a + b
 
+    return add

@@ -12,4 +12,9 @@ Examples:
 """
 def sort_by_length(lst):
     # Your code here
+    lst.sort(key=len)
+    return lst
+
+print(sort_by_length(["apple", "pie", "shortcake"]))
+
 

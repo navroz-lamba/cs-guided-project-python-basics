@@ -17,4 +17,22 @@ Examples:
 """
 def XO(txt):
     # Your code here
+    # keep two variables 
+    # one tha tracks # of Xs and Os
+    xs = 0
+    os = 0
+
+    for character in txt:
+
+        if character.lower() == "x":
+            xs += 1
+        
+        if character.lower() == "o":
+            os += 1
+    
+    return xs == os
+
+print(XO("XxOo"))
+
+
 

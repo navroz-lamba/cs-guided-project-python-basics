@@ -14,4 +14,9 @@ Notes:
 """
 def mapping(letters):
     # Your code here
+    mapping = {value: value.upper() for value in letters}
+
+    return mapping
+
+print(mapping(["a", "v", "y", "z"]))
 
